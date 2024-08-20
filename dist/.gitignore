@@ -4,4 +4,10 @@
 node_modules
 dist
 .cache
+
+#Ignore file
 /credentials.py
+
+#Ignore (txt files) folder by placing folder name and end with a forward slash
+text/*.txt
+#above line means that all the files with .txt extension will be ignored and not any other file
